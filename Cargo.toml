@@ -3,6 +3,19 @@ name = "rs-json-filter-cel"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the filtered json documents using CEL"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-json-filter-cel"
+homepage = "https://github.com/takanoriyanagitani/rs-json-filter-cel"
+documentation = "https://docs.rs/rs-json-filter-cel/latest"
+keywords = ["json", "jsonl", "ndjson", "cel", "filter"]
+categories = ["command-line-utilities"]
+
+exclude = [
+	"json-filter-cel",
+	"json-filter-cel.wasm",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
